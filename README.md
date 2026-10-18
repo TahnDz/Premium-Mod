@@ -6,14 +6,14 @@ Cấu hình Shadowrocket gộp các rule và script cho YouTube, Spotify, SoundC
 
 - `10in1`: file cấu hình chính lấy từ [Gaucuto/ver2promax](https://raw.githubusercontent.com/Gaucuto/ver2promax/refs/heads/main/10in1).
 - `dependencies/`: các JavaScript được tham chiếu bởi `script-path` trong cấu hình.
-- `dependencies/manifest.txt`: danh sách 16 URL phụ thuộc duy nhất.
+- `dependencies/manifest.txt`: danh sách 16 URL phụ thuộc trên GitHub của dự án.
 - `dependencies/SHA256SUMS`: checksum SHA-256 để kiểm tra file tải xuống.
 
 ## Cài đặt
 
 1. Mở `10in1` và nhập vào Shadowrocket hoặc trình quản lý cấu hình tương thích.
 2. Bật MITM trong ứng dụng nếu muốn sử dụng các rule cần sửa request/response.
-3. Đảm bảo các URL `script-path` có thể truy cập Internet. Các script vẫn được tham chiếu từ URL gốc; bản sao trong `dependencies/` dùng để lưu trữ và kiểm tra.
+3. Đảm bảo các URL `script-path` trên GitHub có thể truy cập Internet. Bản sao trong `dependencies/` dùng để lưu trữ và kiểm tra.
 
 ## Cập nhật phụ thuộc
 
